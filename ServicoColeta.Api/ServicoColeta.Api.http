@@ -1,0 +1,13 @@
+@ServicoColeta_HostAddress = https://localhost:7277
+
+POST {{ServicoColeta_HostAddress}}/pesquisas-publica/enviar_resposta
+Content-Type: application/json
+
+{
+  "pesquisaId": 123,
+  "nomeRespondente": "João Silva",
+  "emailRespondente": "joao.silva@example.com",
+  "idadeRespondente": 30,
+  "respostasIds": [1, 2, 3, 4, 5]
+}
+###
