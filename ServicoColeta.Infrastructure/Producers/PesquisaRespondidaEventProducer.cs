@@ -10,7 +10,7 @@ public sealed class PesquisaRespondidaEventProducer(IPublishEndpoint endpoint, I
     public async Task Publish<T>(T @event, CancellationToken cancellationToken = default) where T : class
     {
         await endpoint.Publish(@event, cancellationToken);
-        logger.LogInformation("Publicando evento...");
+        logger.LogWarning("Publicando evento...");
         await Task.Delay(3000, cancellationToken);
         logger.LogInformation("Pesquisa publicada com sucesso: {Event}", @event);
     }
