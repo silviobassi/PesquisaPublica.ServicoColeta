@@ -2,7 +2,7 @@ using MassTransit;
 using Microsoft.Extensions.Logging;
 using ServicoColeta.Application.Services;
 
-namespace PesquisaPublica.ServicoColeta.Infrastructure.Producers;
+namespace ServicoColeta.Infrastructure.Producers;
 
 public sealed class PesquisaRespondidaEventProducer(IPublishEndpoint endpoint, ILogger<PesquisaRespondidaEventProducer> logger)
     : IServiceBusEvent

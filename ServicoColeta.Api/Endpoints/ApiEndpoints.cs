@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using PesquisaPublica.Shared.Contracts.Events;
 using ServicoColeta.Application.Services;
 
-namespace PesquisaPublica.ServicoColeta.Api.Endpoints;
+namespace ServicoColeta.Api.Endpoints;
 
 public static class ApiEndpoints
 {

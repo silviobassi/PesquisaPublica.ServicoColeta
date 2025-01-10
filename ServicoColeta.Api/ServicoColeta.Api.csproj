@@ -11,8 +11,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\PesquisaPublica.ServicoColeta.Application\PesquisaPublica.ServicoColeta.Application.csproj" />
-      <ProjectReference Include="..\PesquisaPublica.ServicoColeta.Infrastructure\PesquisaPublica.ServicoColeta.Infrastructure.csproj" />
+      <ProjectReference Include="..\ServicoColeta.Application\ServicoColeta.Application.csproj" />
+      <ProjectReference Include="..\ServicoColeta.Infrastructure\ServicoColeta.Infrastructure.csproj" />
     </ItemGroup>
 
 </Project>

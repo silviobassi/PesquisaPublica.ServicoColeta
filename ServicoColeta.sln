@@ -1,10 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PesquisaPublica.ServicoColeta.Api", "PesquisaPublica.ServicoColeta.Api\PesquisaPublica.ServicoColeta.Api.csproj", "{0AB9C61A-3FCE-4618-BBC6-32EE795DD6A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicoColeta.Api", "ServicoColeta.Api\ServicoColeta.Api.csproj", "{0AB9C61A-3FCE-4618-BBC6-32EE795DD6A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PesquisaPublica.ServicoColeta.Infrastructure", "PesquisaPublica.ServicoColeta.Infrastructure\PesquisaPublica.ServicoColeta.Infrastructure.csproj", "{02CA8AFF-A86E-413C-B919-1F9E9ABB9A87}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicoColeta.Infrastructure", "ServicoColeta.Infrastructure\ServicoColeta.Infrastructure.csproj", "{02CA8AFF-A86E-413C-B919-1F9E9ABB9A87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PesquisaPublica.ServicoColeta.Application", "PesquisaPublica.ServicoColeta.Application\PesquisaPublica.ServicoColeta.Application.csproj", "{F55FA088-08FA-4C6A-927A-A2FC12455071}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicoColeta.Application", "ServicoColeta.Application\ServicoColeta.Application.csproj", "{F55FA088-08FA-4C6A-927A-A2FC12455071}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
