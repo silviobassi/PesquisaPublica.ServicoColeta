@@ -8,6 +8,6 @@
 
     <ItemGroup>
       <PackageReference Include="Microsoft.Extensions.Logging" Version="9.0.0" />
-      <PackageReference Include="PesquisaPublica.Shared" Version="1.0.14" />
+      <PackageReference Include="PesquisaPublica.Shared" Version="1.0.17" />
     </ItemGroup>
 </Project>
