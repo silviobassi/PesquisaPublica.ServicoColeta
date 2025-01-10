@@ -13,6 +13,6 @@ public static class DependencyInjection
 
     private static void AddServices(IServiceCollection services)
     {
-        services.AddScoped<PesquisaService>();
+        services.AddScoped<PublicacaoRespostasService>();
     }
 }

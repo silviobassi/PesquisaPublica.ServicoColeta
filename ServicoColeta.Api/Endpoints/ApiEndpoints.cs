@@ -10,7 +10,7 @@ public static class ApiEndpoints
     {
         app.MapPost("/pesquisas-publica/enviar_resposta",
             async (
-                [FromServices] PesquisaService pesquisaService,
+                [FromServices] PublicacaoRespostasService pesquisaService,
                 [FromBody] PesquisaRespondidaEvent pesquisaRespondidaEvent) =>
             {
                 await pesquisaService.Publicar(pesquisaRespondidaEvent);
