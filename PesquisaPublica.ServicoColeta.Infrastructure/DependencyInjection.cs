@@ -1,10 +1,10 @@
 using MassTransit;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using PesquisaPublica.ServicoColeta.Infrastructure.Producers;
 using ServicoColeta.Application.Services;
-using ServicoColeta.Infrastructure.Producers;
 
-namespace ServicoColeta.Infrastructure;
+namespace PesquisaPublica.ServicoColeta.Infrastructure;
 
 public static class DependencyInjection
 {

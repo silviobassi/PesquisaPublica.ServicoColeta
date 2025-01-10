@@ -1,6 +1,6 @@
-using ServicoColeta.Api.Endpoints;
+using PesquisaPublica.ServicoColeta.Api.Endpoints;
 using ServicoColeta.Application;
-using ServicoColeta.Infrastructure;
+using PesquisaPublica.ServicoColeta.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
