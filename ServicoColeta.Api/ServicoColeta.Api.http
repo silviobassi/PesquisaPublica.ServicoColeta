@@ -1,6 +1,6 @@
 @ServicoColeta_HostAddress = https://localhost:7277
 
-POST {{ServicoColeta_HostAddress}}/pesquisas-publica/enviar_resposta
+POST {{ServicoColeta_HostAddress}}/pesquisas_publicas/enviar_resposta
 Content-Type: application/json
 
 {
