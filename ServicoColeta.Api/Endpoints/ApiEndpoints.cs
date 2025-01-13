@@ -8,7 +8,7 @@ public static class ApiEndpoints
 {
     public static void MapEndpoints(this WebApplication app)
     {
-        app.MapPost("/pesquisas-publica/enviar_resposta",
+        app.MapPost("/pesquisas_publicas/enviar_resposta",
                 async (
                     [FromServices] PublicacaoRespostasService pesquisaService,
                     [FromBody] PesquisaRespondidaEvent pesquisaRespondidaEvent) =>
