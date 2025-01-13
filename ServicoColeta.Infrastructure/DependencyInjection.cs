@@ -19,10 +19,11 @@ public static class DependencyInjection
     {
         services.AddMassTransit(busConfigurator =>
         {
-            busConfigurator.UsingRabbitMq((context, configurator) =>
+            busConfigurator.UsingAzureServiceBus((context, configurator) =>
             {
-                var connection = configuration.GetValue<string>("ConnectionString:RabbitMQ");
-                configurator.Host(connection);
+                var connection = configuration.GetValue<string>("ConnectionStrings:AzureServiceBus")!;
+                
+                configurator.Host(new Uri(connection));
                 configurator.ConfigureEndpoints(context);
             });
         });

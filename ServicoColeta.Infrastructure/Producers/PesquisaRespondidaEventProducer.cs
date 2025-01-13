@@ -4,7 +4,9 @@ using ServicoColeta.Application.Services;
 
 namespace ServicoColeta.Infrastructure.Producers;
 
-public sealed class PesquisaRespondidaEventProducer(IPublishEndpoint endpoint, ILogger<PesquisaRespondidaEventProducer> logger)
+public sealed class PesquisaRespondidaEventProducer(
+    IPublishEndpoint endpoint,
+    ILogger<PesquisaRespondidaEventProducer> logger)
     : IServiceBusEvent
 {
     public async Task Publish<T>(T @event, CancellationToken cancellationToken = default) where T : class
