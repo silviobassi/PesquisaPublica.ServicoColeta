@@ -1,10 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicoColeta.Api", "ServicoColeta.Api\ServicoColeta.Api.csproj", "{0AB9C61A-3FCE-4618-BBC6-32EE795DD6A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicoColeta.Api", "src\Backend\ServicoColeta.Api\ServicoColeta.Api.csproj", "{0AB9C61A-3FCE-4618-BBC6-32EE795DD6A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicoColeta.Infrastructure", "ServicoColeta.Infrastructure\ServicoColeta.Infrastructure.csproj", "{02CA8AFF-A86E-413C-B919-1F9E9ABB9A87}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicoColeta.Infrastructure", "src\Backend\ServicoColeta.Infrastructure\ServicoColeta.Infrastructure.csproj", "{02CA8AFF-A86E-413C-B919-1F9E9ABB9A87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicoColeta.Application", "ServicoColeta.Application\ServicoColeta.Application.csproj", "{F55FA088-08FA-4C6A-927A-A2FC12455071}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicoColeta.Application", "src\Backend\ServicoColeta.Application\ServicoColeta.Application.csproj", "{F55FA088-08FA-4C6A-927A-A2FC12455071}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{85ED8652-8EA2-4D90-A5A7-7EE81FFCF11B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{32DBC330-FC7F-4DF2-A6C6-DDAB6D01BAC5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +28,11 @@ Global
 		{F55FA088-08FA-4C6A-927A-A2FC12455071}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F55FA088-08FA-4C6A-927A-A2FC12455071}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F55FA088-08FA-4C6A-927A-A2FC12455071}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{32DBC330-FC7F-4DF2-A6C6-DDAB6D01BAC5} = {85ED8652-8EA2-4D90-A5A7-7EE81FFCF11B}
+		{0AB9C61A-3FCE-4618-BBC6-32EE795DD6A1} = {32DBC330-FC7F-4DF2-A6C6-DDAB6D01BAC5}
+		{F55FA088-08FA-4C6A-927A-A2FC12455071} = {32DBC330-FC7F-4DF2-A6C6-DDAB6D01BAC5}
+		{02CA8AFF-A86E-413C-B919-1F9E9ABB9A87} = {32DBC330-FC7F-4DF2-A6C6-DDAB6D01BAC5}
 	EndGlobalSection
 EndGlobal
